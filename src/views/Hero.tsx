@@ -26,8 +26,8 @@ const Hero = () => {
           aria-label="redirect the user to sale page"
           className="bg-black h-14 w-32 px-3 mt-4 gap-1"
         >
-          <ShoppingCart size={18} />
-          <p>Start Shopping</p>
+          <ShoppingCart size={18} className="text-white" />
+          <p className="text-white">Start Shopping</p>
         </Button>
         <div className="flex gap-3 mt-8">
           <Image
