@@ -1,37 +1,40 @@
 import { Product } from "./types";
-import P1 from "/public/p1.web.webp";
+import P5 from "/public/p5.png";
+import P2 from "/public/p2.webp";
+import P3 from "/public/p3.png";
+import P4 from "/public/p4.png";
 
 export const Products: Product[] = [
   {
     id: 1,
-    name: "Product 1",
+    name: "Brushed Raglan Sweatshirt",
     category: "female",
-    tagline: "Dress",
-    price: 20,
-    image: P1,
+    tagline: "Sweater",
+    price: 195,
+    image: P2,
   },
   {
     id: 2,
-    name: "Product 2",
-    category: "male",
+    name: "Cameryn Sash Tie Dress",
+    category: "female",
     tagline: "Dress",
-    price: 202,
-    image: P1,
+    price: 545,
+    image: P3,
   },
   {
     id: 3,
-    name: "Product 3",
-    category: "kids",
-    tagline: "Dress",
-    price: 300,
-    image: P1,
+    name: "Flex Sweatshirt",
+    category: "female",
+    tagline: "Sweater",
+    price: 175,
+    image: P4,
   },
   {
     id: 4,
-    name: "Product 4",
+    name: "Flex Sweatpants",
     category: "female",
-    tagline: "Dress",
-    price: 400,
-    image: P1,
+    tagline: "Pants",
+    price: 175,
+    image: P5,
   },
 ];
